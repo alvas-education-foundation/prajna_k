@@ -1,0 +1,16 @@
+test=int(input())
+count=0
+while(test>=1):
+	count=count+1
+	print("testcase",count)
+	lst=[ ]
+	size=int(input())
+	k=int(input())
+	for i in range(0,size):
+		ele=int(input())
+		lst.append(ele)
+	minimum=min(lst)
+	t=k-minimum
+	print(t)
+	print("-----------------------------------")
+	test=test-1
