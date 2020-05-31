@@ -1,0 +1,16 @@
+1.	#include <stdio.h>
+2.	 
+3.	int main(){
+4.		int l,r,k;
+5.		int i=0;
+6.		int count=0;
+7.		scanf("%d %d %d", &l,&r,&k); 
+8.		for(i=l;i<=r;i++) 
+9.		{
+10.			if(i%k==0)
+11.			{
+12.				count++;
+13.			}
+14.		}            			// Reading input from ST
+15.		printf("%d",count);       // Writing output to STDOUT
+16.	}
